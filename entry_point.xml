@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Entry point for friendbot -->
+<!-- Influenced by ALICE Bot created by the ALICE Foundation -->
+<category>
+	<!-- answer pattern from user with template from bot -->
+	<pattern>LOAD AIML B</pattern>
+	<template>
+		<learn>first_words.aiml</learn>
+
+	</template>
+
+</category>
+</aiml>
+
+
+
