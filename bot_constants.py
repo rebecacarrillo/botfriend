@@ -6,4 +6,8 @@ GREETING_RESPONSES = ("heyo!", "howdy", "hey hey", "hi friend",
 
 MONIKORS = ("dude", "bro", "homie", "friend", "man")
 
+AFFIRMATIVE_RESPONSES = ("yes", "yeah", "for sure",
+                         "Uh-huh", "Yep", "mhmmm","totally")
 
+NEGATE_RESPONSES = ("no", "nah", "no way", "nope",
+                    "Uh-uh")

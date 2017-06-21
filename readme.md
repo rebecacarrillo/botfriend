@@ -1,8 +1,8 @@
-#Botfriend
+# Botfriend
 
 Botfriend is your robot buddy. He's a chatbot. He's still learning.
 
-##Guide to Contents:
+## Guide to Contents:
 
 `bot_constants` contains grouped vocabulary words
 to be peppered into normal conversation. Includes
