@@ -4,7 +4,7 @@ GREETING_KEYWORDS = ("hello", "hi", "hola",
 GREETING_RESPONSES = ("heyo!", "howdy", "hey hey", "hi friend", 
                       "hey dude")
 
-MONIKORS = ("dude", "bro", "homie", "friend", "man")
+MONIKERS = ("dude", "bro", "homie", "friend", "man")
 
 AFFIRMATIVE_RESPONSES = ("yes", "yeah", "for sure",
                          "Uh-huh", "Yep", "mhmmm","totally")

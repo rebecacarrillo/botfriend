@@ -3,8 +3,9 @@
 <!-- Friendbot's basic chat bones -->
 
 	<category>
-		<pattern> HELLO </pattern>
+		<pattern> HELLO * </pattern>
 		<template>
+		</template>
 			
 
 
