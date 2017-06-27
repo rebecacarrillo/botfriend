@@ -59,3 +59,7 @@ class Botfriend:
         for word in msg.words:
             if word.lower() in self.greeting_keywords:
                 return random.choice(self.greeting_responses)
+
+
+    # (simple) linguistic methods
+    #def find_pronoun(msg):
