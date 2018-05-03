@@ -18,12 +18,12 @@ class BotfriendData:
         # Clean this up
 
         c = ConfigParser()
+        bc = bot_constants.BotConstants()
         self.config = c.read('botfriend.conf')
         self.config_file = 'botfriend.conf'
-        self.greeting_keywords = bot_constants.GREETING_KEYWORDS
-        self.greeting_responses = bot_constants.GREETING_RESPONSES
-        self.monikers = bot_constants.MONIKERS
-        #self.myName = self.config.get("general", "my_name")
+        self.greeting_keywords = bc.GREETING_KEYWORDS
+        self.greeting_responses = bc.GREETING_RESPONSES
+        self.monikers = bc.MONIKERS
         self.saved_user_data = c.read('savedUserData.conf')
         self.saved_user_data_file = 'savedUserData.conf'
 
@@ -42,4 +42,3 @@ class Botfriend:
     def __init__(self, BotfriendData):
 
         self.BotfriendData = BotfriendData
-        #self.myName = BotfriendData.myName
