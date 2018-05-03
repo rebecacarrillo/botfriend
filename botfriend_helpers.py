@@ -1,6 +1,10 @@
+import bot_constants
+import random
+from botfriend_api import BotfriendData
+
+bd = BotfriendData()
 
 class BotfriendHelpers:
-
 
     def look_for_i(self, msg):
         # I on its own generally refers to the pronoun "I"
@@ -31,8 +35,8 @@ class BotfriendHelpers:
         dozen exchanges within a thread.
     """
         for word in msg.words:
-            if word.lower() in self.greeting_keywords:
-                return random.choice(self.greeting_responses)
+            if word.lower() in bd.greeting_keywords
+                return random.choice(bd.greeting_repsponses)
 
 
             # (simple) linguistic methods
