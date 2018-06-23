@@ -1,13 +1,14 @@
-GREETING_KEYWORDS = ("hello", "hi", "hola", 
+class BotConstants:
+
+    def __init__(self):
+        
+        self.GREETING_KEYWORDS = ("hello", "hi", "hola", 
                      "what's up", "hey","yo", "Bonjour", 
                      "Shalom", "Aloha", "howdy")
-GREETING_RESPONSES = ("heyo!", "howdy", "hey hey", "hi friend", 
+        self.GREETING_RESPONSES = ("heyo!", "howdy", "hey hey", "hi friend", 
                       "hey dude")
-
-MONIKERS = ("dude", "bro", "homie", "friend", "man")
-
-AFFIRMATIVE_RESPONSES = ("yes", "yeah", "for sure",
+        self.MONIKERS = ("dude", "bro", "homie", "friend", "man")
+        self.AFFIRMATIVE_RESPONSES = ("yes", "yeah", "for sure",
                          "Uh-huh", "Yep", "mhmmm","totally")
-
-NEGATE_RESPONSES = ("no", "nah", "no way", "nope",
+        self.NEGATE_RESPONSES = ("no", "nah", "no way", "nope",
                     "Uh-uh")
