@@ -35,7 +35,7 @@ class BotfriendHelpers:
         dozen exchanges within a thread.
     """
         for word in msg.words:
-            if word.lower() in bd.greeting_keywords
+            if word.lower() in bd.greeting_keywords:
                 return random.choice(bd.greeting_repsponses)
 
 
